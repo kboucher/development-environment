@@ -1,0 +1,18 @@
+[user]
+	name = Kevin Boucher
+	email = kevin@kevinboucher.com
+[core]
+	excludesfile = /Users/KBoucher/.gitignore_global
+[difftool "sourcetree"]
+	cmd = C:\Users\kboucher\AppData\Local\SourceTree\app-2.0.20.1\SourceTree.exe \"$LOCAL\" \"$REMOTE\"
+	path =
+[mergetool "sourcetree"]
+	cmd = C:\Users\kboucher\AppData\Local\SourceTree\app-2.0.20.1\SourceTree.exe \"$BASE\" \"$LOCAL\" \"$REMOTE\" -o \"$MERGED\"
+	trustExitCode = true
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	b = branch
+	create-pull-request = !sh -c 'stash pull-request $0'
+	lg = log --graph --pretty=format:'%Cgreen%h%Creset -%Creset %s%C(yellow)%d %Cblue(%aN, %cr)%Creset' --abbrev-commit --date=relative -—no-merges

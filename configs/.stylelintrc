@@ -1,0 +1,17 @@
+{
+    "extends": "stylelint-config-standard",
+    "rules": {
+        "at-rule-no-unknown": null,
+        "declaration-colon-newline-after": null,
+        "font-family-name-quotes": null,
+        "function-name-case": ["lower", {"ignoreFunctions": ["DXImageTransform.Microsoft.gradient", "DXImageTransform.Microsoft.BasicImage"]}],
+        "function-url-quotes": "always",
+        "indentation": 4,
+        "max-empty-lines": 2,
+        "max-nesting-depth": 6,
+        "number-leading-zero": "never",
+        "selector-pseudo-element-colon-notation": null,
+        "string-quotes": "single",
+        "value-list-comma-newline-after": null
+    }
+}

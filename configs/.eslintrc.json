@@ -1,0 +1,24 @@
+{
+    "env": {
+        "browser": true
+    },
+    "extends": "airbnb-base",
+    "globals": {
+        "$": true,
+        "document": true,
+        "jQuery": true,
+        "secured": true,
+        "window": true
+    },
+    "plugins": [
+        "import"
+    ],
+    "rules": {
+        "func-names": "off",
+        "indent": ["error", 4],
+        "max-len": ["error", 120],
+        "no-plusplus": "off",
+        "no-var": "off",
+        "space-before-function-paren": ["error", "never"]
+    }
+}

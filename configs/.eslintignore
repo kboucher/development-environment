@@ -1,0 +1,7 @@
+.git
+.web_bundle_build
+gulpfile.js
+build/
+dist/
+node_modules/
+src/js/lib/
